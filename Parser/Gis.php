@@ -8,7 +8,7 @@ namespace Parser;
  * Пример:
  * $query = "Ювелирные украшения";
  * $parser = new \Parser\Gis();
- * $contacts = $parser->getContacts($query);
+ * $data = $parser->getData($query);
  */
 class Gis implements iParser{
 
